@@ -1,0 +1,120 @@
+<html>
+<head>
+	<title>Alarm Clock</title>
+<script type="text/javascript" src="time.js"> </script> 
+</head>
+<body onLoad="sivamtime()">
+<table width="100%" height="100%">
+	<tr align="left">
+		<td colspan="2">
+<br><script language=JavaScript src="http://ads.realtechnetwork.net/servlet/ajrotator/1282/0/vj?z=realtech&dim=297"></script> <noscript><a href="http://ads.realtechnetwork.net/servlet/ajrotator/1282/0/cc?z=realtech"><img src="http://ads.realtechnetwork.net/servlet/ajrotator/1282/0/vc?z=realtech&dim=297" width="728" height="90" border="0"></a></noscript><br>
+</td>	
+		<td></td>
+	</tr>
+	<tr valign="top">
+		<td align="left" style="padding:10">
+         <table border="0" align="center" bgcolor="#A8FFC3" cellspacing="0" cellpadding="2" width="136">
+	    <tr>
+	      <td colspan="4">
+                 <font size="1" face="verdana, arial, helvetica, ms sans serif">
+                   <b>Current Time</b>
+                 </font>
+              </td>
+            </tr>
+	    <tr>
+	      <td>
+		 <form name="hours">
+	         <p><input type="text" size="2" name="clock"></p>
+	         </form>
+	      </td>
+	      <td>
+		 <form name="minutes">
+	         <p><input type="text" size="2" name="clock" /></p>
+	         </form>
+	      </td>
+	      <td>
+		 <form name="seconds">
+	         <p><input type="text" size="2" name="clock" /></p>
+	         </form>
+	      </td>
+	      <td>
+		 <form name="ampm">
+	         <p><input type="text" size="2" name="clock" /></p>
+	         </form>
+	      </td>
+	    </tr>
+	 </table>
+
+
+         <table border="0" align="center" bgcolor="#A8FFC3" cellspacing="0" cellpadding="2" width="136">
+            <tr>
+	      <td colspan="3">
+	 <form name="arlm">
+                 <font size="1" face="verdana, arial, helvetica, ms sans serif">
+                   <b>Alarm Time</b>
+                 </font>
+              </td>
+            </tr>  
+            <tr align="center">
+	      <td>
+                 <font size="1" face="verdana, arial, helvetica, ms sans serif">
+                    Hour 
+                 </font>
+              </td>
+	      <td>
+                 <font size="1" face="verdana, arial, helvetica, ms sans serif">
+                     Minute
+                 </font>
+              </td>
+	      <td>
+                 <font size="1" face="verdana, arial, helvetica, ms sans serif">
+                    am/pm
+                 </font>
+              </td>
+            </tr>
+	    <tr align="center">
+	      <td>
+	         <input type="text" size="2" name="hr" onFocus="select()" />
+
+	      </td>
+	      <td>
+	           <input type="text" size="2" name="mts" onFocus="select()" />
+	      </td>
+	      <td>
+	          <input type="text" size="2" value="am" name="am_pm" onFocus="select()" />
+	      </td>
+	    </tr>
+            <tr align="left">
+	      <td colspan="3">
+                 <font size="1" face="verdana, arial, helvetica, ms sans serif">
+                    Message
+                 </font>
+              </td>
+            </tr>
+	    <tr align="left">
+              <td colspan="3">
+                 <input type="text" size="15" value="Wake Up!" name="message" /><br>
+<input type="checkbox" name="C1" value="ON" onClick="soundcheck(this)"> <font size="1" face="verdana, arial, helvetica, ms sans serif">Play music?</font>
+	      </td>
+	    </tr>
+            <tr>
+	      <td align="center" colspan="3">
+	         <input type="button" size="2" value="Set Alarm" onClick="alarm()" />
+	      </td>
+	    </tr>
+	    <tr>
+	      <td align="center" colspan="3">
+	         <input type="button" size="2" value="Reset" onClick="reset()" />
+	      </td>
+            </tr>
+	 </table>
+	 </form>
+		</td>	
+	</tr>	
+</script>
+		</td>	
+		<td></td>
+	</tr>
+</table>
+</body>
+</html>
