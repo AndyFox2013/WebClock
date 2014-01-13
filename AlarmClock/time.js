@@ -1,6 +1,3 @@
-//Enter path to mid file to play
-var musicsrc="bell.mid"
-
 function sivamtime() {
 	now=new Date();
 	hour=now.getHours();
@@ -35,22 +32,6 @@ if (hour==00) {
  setTimeout("sivamtime()", 1000);
 
 }
-
-playit=false
-
-function playmusic(){
-musicwin=window.open("","","width=100,height=100")
-if (navigator.appName=="Microsoft Internet Explorer")
-musicwin.document.write('<bgsound src='+'"'+musicsrc+'"'+' loop="infinite">')
-else
-musicwin.document.write('<embed src=\"'+musicsrc+'\" hidden="true" border="0" width="20" height="20" autostart="true" loop="true">')
-musicwin.document.close()
-}
-
-function soundcheck(cbox){
-playit=cbox.checked
-}
-
 function alarm() {
     note = document.arlm.message.value;
     if (note == '') {note = 'ALARM!!';}
