@@ -1,4 +1,4 @@
-
+	
 function date_time(id)
 {
         date = new Date;
